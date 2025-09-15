@@ -1,7 +1,7 @@
 //your JS code here. If required.
 var count = 0; 
-let btn = document.querySelector("#btn");
-let preview = document.querySelector("#preview");
+let btn = document.querySelector("#incrementBtn");
+let preview = document.querySelector("#counter");
 const incrementFxn = () =>{
 	alert(count);
 	count++;
